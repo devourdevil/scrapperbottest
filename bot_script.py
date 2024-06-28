@@ -22,7 +22,7 @@ def scrape(update: Update, context: CallbackContext) -> None:
 
 def main():
     # Replace 'YOUR_API_TOKEN' with your bot's API token
-    updater = Updater("YOUR_API_TOKEN", use_context=True)
+    updater = Updater("7268944881:AAGD_cK5YsFrif4ZtNF2efpMyZN9o16ExRc", use_context=True)
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler("start", start))
